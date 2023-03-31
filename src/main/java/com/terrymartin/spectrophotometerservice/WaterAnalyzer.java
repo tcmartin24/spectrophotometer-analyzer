@@ -37,7 +37,7 @@ public class WaterAnalyzer {
     public void setup() {
         try {
             // Download the data that we will attempt to model.
-            File trainingFile = new File("/Users/terrymartin/Downloads/neural-net-test1/src/main/resources/training-data.csv");
+            File trainingFile = new File("training-data.csv");
 
             // Define the format of the data file.
             // This area will change, depending on the columns and
